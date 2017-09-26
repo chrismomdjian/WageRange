@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WageRange</string>
+    <string name="hourlySelection">HOURLY</string>
+    <string name="weeklySelection">WEEKLY</string>
+    <string name="monthlySelection">MONTHLY</string>
+    <string name="yearlySelection">YEARLY</string>
+    <string name="hourlyWageField">HOURLY WAGE</string>
+    <string name="hoursPerDayField">HOURS PER DAY</string>
+    <string name="daysEachWeekField">DAYS EACH WEEK</string>
+    <string name="submitButton">CALCULATE</string>
+    <string name="resultTextView">Result</string>
+</resources>

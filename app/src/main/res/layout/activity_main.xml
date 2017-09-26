@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="chrismomdjian.student.edu.wagerange.MainActivity">
+
+    <Button
+        android:id="@+id/hourlySelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hourlySelection"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_above="@+id/monthlySelection"
+        android:layout_alignRight="@+id/monthlySelection"
+        android:layout_alignEnd="@+id/monthlySelection"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/weeklySelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weeklySelection"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/yearlySelection"
+        android:layout_alignStart="@+id/yearlySelection"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/hourlySelection" />
+
+    <Button
+        android:id="@+id/monthlySelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monthlySelection"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_above="@+id/weeklySelection"
+        android:layout_alignRight="@+id/weeklySelection"
+        android:layout_alignEnd="@+id/weeklySelection"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/weeklySelection"
+        app:layout_constraintHorizontal_bias="0.501" />
+
+    <Button
+        android:id="@+id/yearlySelection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yearlySelection"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/monthlySelection" />
+
+
+</android.support.constraint.ConstraintLayout>
